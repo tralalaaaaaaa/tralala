@@ -1,0 +1,244 @@
+/* Estilo geral do body */
+body {
+    color: rgb(8, 8, 8);
+    background: rgb(184, 156, 213);
+    margin: 0;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+/* Header com Flexbox */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px white;
+    padding: 20px 40px;
+    font-size: 16px;
+    color: white;
+    position: relative;
+}
+
+/* Título */
+header h1 {
+    font-family: "RocknRoll One";
+    font-size: 28px;
+    margin: 0;
+    position: relative;
+    left: 30px;
+}
+
+/* Logo */
+.logo img {
+    height: 75px;
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    font-size: 16px;
+}
+
+/* Contato - ajustado com Flexbox e posicionamento relativo ao header */
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 18px;
+    color: white;
+}
+
+/* Seção principal */
+section {
+    background: white;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Conteúdo da seção de adoção */
+
+.adocao {
+    font-family: "Poppins", sans-serif;
+    color: rgb(168,103,155);
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.adocao img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.aba {  
+    display: flex;
+}
+
+.aba img {
+    display:flex;
+    gap: 40px;
+    width: 380px;
+    justify-content: center; /* centraliza as imagens horizontalmente */
+}
+
+.Primeiros {
+    background: white;
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    font-family: "RocknRoll One";
+    font-size: 15px;
+    margin: 0;
+    position: relative;
+}
+
+.subtitulo {
+    font-family: "RocknRoll One";
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    right: 650px;
+    font-size: 24px;
+    color: white;
+}
+
+.saude {
+    font-family: "RocknRoll One";
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    right: 750px;
+    font-size: 24px;
+    color: white;
+}
+
+.alimentacao {
+    font-family: "RocknRoll One";
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    right: 730px;
+    font-size: 24px;
+    color: white;
+}
+
+.higiene {
+    font-family: "RocknRoll One";
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    right: 740px;
+    font-size: 24px;
+    color: white;
+}
+
+.aba2 {  
+    display: flex;
+    gap: 100px;
+}
+
+.aba2 img {
+    display:flex;
+    width: 250px;
+    justify-content: center; /* centraliza as imagens horizontalmente */
+}
+
+.aba3 {  
+    display: flex;
+    gap: 100px;
+}
+
+.aba3 img {
+    display:flex;
+    width: 250px;
+    justify-content: center; /* centraliza as imagens horizontalmente */
+}
+
+.button {
+    position: absolute;
+    top: 800px;
+    right: 740px;
+
+}
+
+/*Botões da home*/
+
+.button1 {
+    position: absolute;
+    top: 950px;
+    right: 1025px;
+    padding: 120px 80px;
+    background-color: transparent;
+    border: 0;
+}
+
+/*Botões da Pagina de Cuidados*/
+
+.button2 {
+    position: absolute;
+    top: 0px;
+    right: 1350px;
+    padding:40px 120px;
+    background-color: transparent;
+    border: 0;
+}
+
+.button3 {
+    position: absolute;
+    top: 110px;
+    right: 980px;
+    padding:120px 120px;
+    background-color: transparent;
+    border: 0;
+}
+
+.button4 {
+    position: absolute;
+    top: 110px;
+    right: 615px;
+    padding:120px 120px;
+    background-color: transparent;
+    border: 0;
+}
+
+.button5 {
+    position: absolute;
+    top: 110px;
+    right: 250px;
+    padding:120px 120px;
+    background-color: transparent;
+    border: 0;
+}
+
+.button6 {
+    position: absolute;
+    top: 515px;
+    right: 800px;
+    padding:120px 120px;
+    background-color: transparent;
+    border: 0;
+}
+
+.button7 {
+    position: absolute;
+    top: 515px;
+    right: 415px;
+    padding:120px 120px;
+    background-color: transparent;
+    border: 0;
+}
+

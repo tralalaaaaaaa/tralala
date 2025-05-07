@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Higiene</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+    <!-- Cabeçalho com Flexbox -->
+    <header class="cabecalho">
+        <h1 class="titulo">AuQmia</h1>
+
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img/logo.png')}}" alt="Logo da AuQmia">
+        </div>
+
+        <div class="higiene">
+            <h3>Higiene</h3>
+        </div>
+
+        <form action="{{ url_for('index') }}">
+            <button type="submit" class="button2"></button>
+         </form>
+         
+    </header>
+
+    <div class="Primeiros">
+        <h2>Cuidar da higiene do seu pet é uma forma linda de demonstrar amor!</h2>
+
+        <h2>Além de mantê-lo limpinho, cheiroso e saudável, esses momentos de cuidado fortalecem o vínculo entre vocês — é carinho em forma de cuidado!</h2>
+
+        <p>🐾 Cada tipo de pelagem tem suas particularidades, então é legal adaptar a rotina de higiene ao jeitinho do seu pet:</p>
+
+        <h2>✂️ Pelagem curta:</h2>
+
+        <p>Mais prática no dia a dia!</p>
+
+        <p>Banhos a cada 15 a 30 dias costumam ser suficientes.</p>
+
+        <p>Escovações semanais já ajudam a manter os pelos soltinhos e a pele saudável.</p>
+
+        <h2>💁‍♂️ Pelagem média a longa:</h2>
+
+        <p>Um pouco mais de vaidade envolvida!</p>
+
+        <p>Escovações de 2 a 3 vezes por semana (ou até diárias) evitam nós e sujeirinhas.</p>
+
+        <p>Banho a cada 15 dias funciona bem.</p>
+
+        <p>A tosa depende da raça e do clima, podendo ser feita a cada 30 a 45 dias.</p>
+
+        <h2>👑 Pelagem longa e densa (tipo Spitz, Shih-tzu, Maltês...):</h2>
+
+        <p>Esses exigem atenção redobrada!</p>
+
+        <p>Escovações diárias são ideais.</p>
+
+        <p>Banhos a cada 15 dias mantêm a pelagem bonita.</p>
+
+        <p>Tosa higiênica mensal é super recomendada, e a tosa completa pode variar conforme o estilo e conforto do pet.</p>
+
+        <h2>🧼 Mas não é só o pelo que merece atenção!</h2>
+
+        <p>Ouvidos limpos,</p>
+
+        <p>Unhas cortadas,</p>
+
+        <p> Dentinhos escovados...</p>
+
+        <p>🧴 Use sempre produtos específicos para pets — a pele deles é sensível e diferente da nossa.</p>
+
+        <h2>💡 E, claro: fique de olho no seu bichinho! Se ele anda se coçando demais, com cheirinho forte ou pelos opacos, pode ser sinal de que está na hora de reforçar os cuidados ou marcar uma visita ao veterinário.</h2>
+    </div>
+
+</body>
+</html>

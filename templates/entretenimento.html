@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Entretenimento</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+    <!-- Cabeçalho com Flexbox -->
+    <header class="cabecalho">
+        <h1 class="titulo">AuQmia</h1>
+
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img/logo.png')}}" alt="Logo da AuQmia">
+        </div>
+
+        <div class="saude">
+            <h3>Entretenimento</h3>
+        </div>
+
+        <form action="{{ url_for('index') }}">
+            <button type="submit" class="button2"></button>
+         </form>
+         
+    </header>
+
+    <div class="Primeiros">
+        <h2>Pet feliz é pet que brinca!</h2>
+
+        <h2>Brincar vai muito além da diversão: é uma forma de gastar energia, estimular a mente, aliviar o tédio e ainda fortalecer o vínculo entre vocês. 🐶🐱💛</h2>
+
+        <h2>Mas atenção: nem todo brinquedo é seguro!</h2>
+
+        <p>Assim como acontece com crianças, é importante escolher bem os brinquedos dos nossos companheiros peludos — afinal, eles vão morder, puxar, arrastar e, se vacilar, até tentar engolir!</p>
+
+        <h2>✅ Brinquedos que são bem-vindos:</h2>
+
+        <p>Bolinhas de borracha resistente (sem partes soltas): perfeitas para correr atrás e morder sem risco.</p>
+
+        <p>Cordas trançadas e grossas: ideais para brincadeiras de puxa-puxa.</p>
+
+        <p>Pelúcias específicas para pets: com costura reforçada e sem peças que se soltem facilmente.</p>
+
+        <p>Brinquedos interativos ou recheáveis com petiscos: ótimos para estimular o raciocínio e manter o pet entretido.</p>
+
+        <p>Para os gatinhos: arranhadores, túneis, varinhas com penas e bolinhas leves são sucesso garantido!</p>
+
+        <h2>❌ O que não deve ser usado como brinquedo:</h2>
+
+        <p>Tampinhas, elásticos e objetos pequenos ou pontiagudos: risco de engasgo ou ingestão acidental.</p>
+
+        <p>Meias, chinelos e roupas: podem virar hábito e o pet não vai saber o que é brinquedo e o que é seu.</p>
+
+        <p>Brinquedos de criança que não foram feitos para pets: muitas vezes têm tintas tóxicas ou peças que se quebram fácil.</p>
+
+        <p>Ossos cozidos (como os de galinha ou churrasco): podem lascar e causar sérias lesões internas.</p>
+
+        <h2>🧠 Dica de ouro:</h2>
+
+        <p>Sempre supervise o pet quando ele estiver com um brinquedo novo.</p>
+
+        <h2>E não esqueça de variar! Trocar os brinquedos de tempos em tempos mantém o interesse e ajuda a combater o tédio.</p>
+
+        <p>Com os brinquedos certos, seu pet se diverte, se exercita e ainda fica mais calmo dentro de casa. É o combo perfeito de saúde, alegria e bem-estar! 🐾💫</h2>
+    </div>
+
+</body>
+</html>

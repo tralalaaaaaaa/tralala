@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cuidados</title>
+    <link rel="stylesheet" href="{{ url_for('static',
+    filename='css/styles.css') }}">
+</head>
+<body>
+
+    <!-- Cabeçalho com Flexbox -->
+    <header class="cabecalho">
+        <h1 class="titulo">AuQmia</h1>
+
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img/logo.png')}}" alt="Logo da AuQmia">
+        </div>
+
+        <div class="saude">
+            <h3>Cuidados</h3>
+        </div>
+    </header>
+
+    
+    <form action="{{ url_for('index') }}">
+        <button type="submit" class="button2"></button>
+    </form>
+
+    <form action="{{ url_for('primeiros_cuidados') }}">
+        <button type="submit" class="button3"></button>
+    </form>
+
+    <form action="{{ url_for('alimentacao') }}">
+        <button type="submit" class="button4"></button>
+    </form>
+
+    <form action="{{ url_for('higiene') }}">
+        <button type="submit" class="button5"></button>
+    </form>
+
+    <form action="{{ url_for('saude') }}">
+        <button type="submit" class="button6"></button>
+    </form>
+
+    <form action="{{ url_for('entretenimento') }}">
+        <button type="submit" class="button7"></button>
+    </form>
+    
+    <section class="aba2">
+        <div class="aba2">
+            <img src="{{ url_for('static', filename='img/Primeiros.png')}}" alt="Cuidados">
+            <img src="{{ url_for('static', filename='img/Alimentacao.jpg')}}" alt="Alimentação">
+            <img src="{{ url_for('static', filename='img/Higiene.jpg')}}" alt="Higiene">
+    </section>
+
+    <section class="aba3">
+        <div class="aba3">
+            <img src="{{ url_for('static', filename='img/Cuidados.png')}}" alt="Saúde">
+            <img src="{{ url_for('static', filename='img/Entreterimento.png')}}" alt="Entreterimento">
+        </div>
+        </div>
+    </section>
+
+</body>
+</html>

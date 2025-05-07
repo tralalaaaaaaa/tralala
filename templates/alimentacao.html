@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Alimentação</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+    <!-- Cabeçalho com Flexbox -->
+    <header class="cabecalho">
+        <h1 class="titulo">AuQmia</h1>
+
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img/logo.png')}}" alt="Logo da AuQmia">
+        </div>
+
+        <div class="alimentacao">
+            <h3>Alimentação</h3>
+        </div>
+
+        <form action="{{ url_for('index') }}">
+            <button type="submit" class="button2"></button>
+         </form>
+
+    </header>
+
+    <div class="Primeiros">
+        <h2>Assim como a gente, os pets também precisam de uma alimentação equilibrada pra crescer saudáveis, cheios de energia e com o bem-estar em dia.</h2>
+
+        <h2>E o primeiro passo pra isso é oferecer uma ração de qualidade, própria para a espécie, idade e porte do seu bichinho.</h2>
+
+        <p>Hoje em dia, também existem opções de dietas naturais e específicas, mas elas devem sempre ser indicadas por um veterinário — afinal, cada pet é único e merece cuidados personalizados. 🐶🐱</p>
+
+        <h2>🧀 Mas e aquele pedacinho do que estamos comendo?</h2>
+
+        <p>A vontade de mimar com um lanchinho "do nosso prato" é real, né? Mas nem tudo o que é gostoso pra gente é seguro pra eles. Aliás, alguns alimentos comuns podem ser bem perigosos!</p>
+
+        <h2>❌ O que não pode de jeito nenhum:</h2>
+
+        <p>Chocolate: é tóxico e pode causar vômitos, tremores e até problemas cardíacos.</p>
+
+        <p>Cebola, alho e temperos fortes: afetam o sangue e fazem mal aos glóbulos vermelhos.</p>
+
+        <p>Uva e uva-passa: podem causar insuficiência renal, mesmo em pequenas quantidades.</p>
+
+        <p>Álcool, café e refrigerantes: são extremamente perigosos!</p>
+
+        <p>Comidas temperadas ou muito gordurosas: massas, frituras e temperos não combinam com o sistema digestivo deles.</p>
+
+        <h2>✅ O que pode (com moderação e orientação):</h2>
+
+        <p>Frutinhas como maçã, banana, melancia e mamão (sem sementes ou caroços): são ótimos petiscos naturais!</p>
+
+        <p>Legumes cozidos sem sal ou temperos, como abóbora e cenoura: nutritivos e leves.</p>
+
+        <p>Alimentação natural balanceada: é possível, sim! Mas precisa ser formulada por um veterinário nutrólogo pra garantir todos os nutrientes que seu pet precisa.</p>
+
+        <h2>📌 Regra de ouro:</h2>
+
+        <p>Evite dar qualquer “pedacinho” sem saber se é seguro.</p>
+
+        <p>O organismo dos pets é bem diferente do nosso, e o que parece inofensivo pra gente pode virar um problemão pra eles.</p>
+
+        <p>Em caso de dúvida, fale sempre com o veterinário de confiança.</p>
+
+        <h2>Um pet bem alimentado é um pet feliz, saudável — e cheio de energia pra brincar com você! 💛🐾</h2>
+    </div>
+
+</body>
+</html>

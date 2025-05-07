@@ -1,0 +1,18 @@
+meu_site/
+├── app.py
+├── templates/
+│   ├── index.html
+│   ├── cuidados.html
+│   ├── primeiros_cuidados.html
+│   ├── alimentacao.html
+│   ├── higiene.html
+│   ├── saude.html
+│   ├── entretenimento.html
+│   ├── encontre_petshop.html
+│   └── petshop_regiao.html
+│   ├── login.html
+│   └── home.html
+├── static/
+    └── css/
+│       └── style.css
+

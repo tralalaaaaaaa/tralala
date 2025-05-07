@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Primeiros Cuidados</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+    <!-- Cabeçalho com Flexbox -->
+    <header class="cabecalho">
+        <h1 class="titulo">AuQmia</h1>
+
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img/logo.png')}}" alt="Logo da AuQmia">
+        </div>
+
+        <div class="subtitulo">
+            <h3>Primeiros Cuidados💞</h3>
+        </div>
+
+     <form action="{{ url_for('index') }}">
+        <button type="submit" class="button2"></button>
+     </form>
+    </header>
+
+    <div class="Primeiros">
+        <h2>Adotar um pet é abrir o coração para um novo membro da família. É ganhar amor em forma de patinhas, lambidas e olhares carinhosos — junto com algumas responsabilidades importantes também! 🐾</h2>
+        <p>Nos primeiros dias, tudo é novidade para o bichinho, então vale caprichar na recepção com muito cuidado e carinho:</p>
+        <h2>1. 🏡 Prepare o cantinho dele</h2>
+        <p>Separe um espaço tranquilo com uma caminha, potinho de água fresca e comidinha adequada. Um lar aconchegante desde o início faz toda a diferença na adaptação!</p>
+        <h2>2. 🩺 Visita ao veterinário</h2>
+        <p>Antes de começar as aventuras, é importante garantir que a saúde esteja em dia. O veterinário vai orientar sobre vacinas, vermífugos e antipulgas — tudo para manter seu novo amigo protegido.</p>
+        <h2>3. ⏳ Respeite o tempo de adaptação</h2>
+        <p>Cheiros novos, pessoas novas, ambiente novo… tudo pode ser um pouco assustador no começo. Dê carinho, mas respeite o tempo dele para se ambientar e se sentir seguro.</p>
+        <h2>4. 🕒 Crie uma rotina</h2>
+        <p>Horários para alimentação, passeios e momentos de brincadeira ajudam o pet a entender o novo lar e se sentir mais confiante e tranquilo.</p>
+        <h2>5. ❤️ Tenha paciência (e muito amor!)</h2>
+        <p>Cada pet tem sua própria personalidade: uns são mais brincalhões, outros mais reservados. Com tempo, afeto e respeito, vocês vão se conectar e construir uma relação única.</p>
+        <h2>Adotar é um ato de amor — e com pequenos gestos diários, você mostra que esse amor veio pra ficar. 🐶🐱✨</h2>
+    </div>
+
+</body>
+</html>

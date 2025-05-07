@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Saúde</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+    <!-- Cabeçalho com Flexbox -->
+    <header class="cabecalho">
+        <h1 class="titulo">AuQmia</h1>
+
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img/logo.png')}}" alt="Logo da AuQmia">
+        </div>
+
+        <div class="saude">
+            <h3>Saúde</h3>
+        </div>
+
+        <form action="{{ url_for('index') }}">
+            <button type="submit" class="button2"></button>
+         </form>
+         
+    </header>
+
+    <div class="Primeiros">
+        <h2>Cuidar da saúde do seu pet é como cuidar de uma criança: exige atenção, rotina e, claro, muito amor!</h2>
+        <p>E a melhor forma de garantir que ele viva bem, saudável e protegido é mantendo as vacinas em dia e fazendo visitas regulares ao veterinário. 🩺🐾</p>
+        <h2>💉 Por que vacinar é tão importante?</h2>
+        <p>As vacinas funcionam como um escudo invisível, protegendo seu pet de doenças sérias — muitas delas contagiosas e até fatais. E tem mais: algumas vacinas também ajudam a proteger os humanos da casa!</p>
+        <h2>🐶 Para cães, as principais vacinas são:</h2>
+        <p>V8 ou V10: protegem contra várias doenças graves, como parvovirose, cinomose e hepatite.</p>
+        <p>Raiva: é obrigatória por lei e essencial para a saúde pública.</p>
+        <p>Gripe, giárdia e leishmaniose: recomendadas conforme a região e a avaliação do veterinário.</p>
+        <h2>🐱 Para gatos, as vacinas essenciais incluem:</h2>
+        <p>V3, V4 ou V5: ajudam na prevenção de doenças respiratórias e virais.</p>
+        <p>Raiva: também obrigatória para os felinos.</p>
+        <p>FeLV (Leucemia Felina): indicada conforme o estilo de vida e exposição do gatinho.</p>
+        <h2>4. 🕒 Crie uma rotina</h2>
+        <p>Horários para alimentação, passeios e momentos de brincadeira ajudam o pet a entender o novo lar e se sentir mais confiante e tranquilo.</p>
+        <h2>5. ❤️ Tenha paciência (e muito amor!)</h2>
+        <p>Cada pet tem sua própria personalidade: uns são mais brincalhões, outros mais reservados. Com tempo, afeto e respeito, vocês vão se conectar e construir uma relação única.</p>
+        <h2>Adotar é um ato de amor — e com pequenos gestos diários, você mostra que esse amor veio pra ficar. 🐶🐱✨</h2>
+    </div>
+
+</body>
+</html>
