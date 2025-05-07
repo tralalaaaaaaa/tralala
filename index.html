@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="{{ url_for('static',
+    filename='css/styles.css') }}">
+</head>
+<body>
+
+    <!-- Cabeçalho com Flexbox -->
+    <header class="cabecalho">
+        <h1 class="titulo">AuQmia</h1>
+
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logo da AuQmia">
+        </div>
+
+        <div class="contato">
+            <span>📞 11 97362-4641</span>
+            <span>✉ projeto.faculdade146@gmail.com</span>
+        </div>
+    </header>
+
+        <form action="{{ url_for('cuidados') }}">
+            <button type="submit" class="button1"></button>
+        </form>
+        
+    <!-- Seção de Adoção centralizada com Flexbox -->
+    <section class="adocao">
+        <div class="adocao-conteudo">
+            <h1>Dê um lar a quem mais precisa.<br>Adote perto de você!</h1>
+            <img src="{{ url_for('static', filename= 'img/adocao.png')}}" alt="Imagem de adoção">
+        </div>
+    </section>
+    <section class="aba">
+        <div class="aba">
+            <img src="{{ url_for('static', filename='img/icone_cuidados.png')}}" alt="Cuidados">
+            <img src="{{ url_for('static', filename='img/icone_adocao.png')}}" alt="Pet">
+            <img src="{{ url_for('static', filename='img/icone_localizacao.png')}}" alt="Petshop">
+        </div>
+    </section>
+
+</body>
+</html>
